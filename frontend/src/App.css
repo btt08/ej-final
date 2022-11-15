@@ -92,15 +92,6 @@
   outline: 0;
 }
 
-.search-btn {
-  background-color: #27bcb4;
-  color: #fff;
-}
-
-.search-btn:hover {
-  background-color: #256b66;
-}
-
 .main-content {
   display: flex;
   gap: 1rem;

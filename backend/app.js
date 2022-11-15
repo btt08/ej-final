@@ -1,5 +1,4 @@
 const express = require('express');
-const cors = require('cors');
 const productsRouter = require('./routers/productsRouter')
 
 const config = require('./modules/config');
@@ -8,8 +7,6 @@ const port = config.PORT;
 
 require('./modules/mongo');
 const app = express();
-
-app.use(cors());
 
 app.use('/products', productsRouter);
 

@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import DataContext from '../context/dataContext';
+
 import Card from './Card';
 
 export const Products = () => {

@@ -1,8 +1,9 @@
+import { useContext } from 'react';
+import DataContext from '../context/dataContext';
+
 import { SortingForm } from "./SortingForm"
 import { Pagination } from "./Pagination"
 import { Products } from "./Products"
-import { useContext } from 'react';
-import DataContext from '../context/dataContext';
 import { SpinnerCircular } from 'spinners-react';
 
 const Content = () => {

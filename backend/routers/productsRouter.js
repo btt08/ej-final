@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { getAllProducts, getProduct, getProductByCat, searchProduct } = require('../services/productsService');
+const { getAllProducts, getProductByCat, searchProduct } = require('../services/productsService');
 const { checkResultLength } = require('../modules/AuxFunctions.js');
 
 router.get('/cat/:cat', async (req, res, next) => {

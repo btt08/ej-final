@@ -1,8 +1,8 @@
-import { DataProvider } from './context/dataContext';
-
-import Searchbar from './components/Searchbar';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
+
+import { DataProvider } from './context/dataContext';
+import Searchbar from './components/Searchbar';
 import CategoriesList from './components/CategoriesList';
 import Content from './components/Content';
 

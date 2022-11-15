@@ -48,8 +48,6 @@ export const DataProvider = ({ children }) => {
     setTimeout(() => {
       setIsLoading(false);
     }, 500);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-
   }, [pageNum, cat, search, sort]);
 
   return (

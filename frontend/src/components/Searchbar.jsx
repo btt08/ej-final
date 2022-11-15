@@ -24,10 +24,6 @@ const Searchbar = () => {
           value={search}
           onChange={handleChange}
           placeholder="Introduce términos de búsqueda" />
-        <button className='button search-btn'
-          type="submit">
-          Buscar
-        </button>
       </form>
     </div>
   )
