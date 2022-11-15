@@ -1,0 +1,30 @@
+{
+  "name": "final-project-backend",
+  "version": "1.0.0",
+  "description": "Backend para proyecto final del bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "dev": "set NODE_ENV=dev&& node ./app.js",
+    "prod": "set NODE_ENV=prod&& node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btt08/final-project-backend.git"
+  },
+  "author": "Borja TT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btt08/final-project-backend/issues"
+  },
+  "homepage": "https://github.com/btt08/final-project-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.2",
+    "mongoose-paginate-v2": "^1.7.1",
+    "nodemon": "^2.0.20"
+  }
+}
